@@ -1,0 +1,8 @@
+com\practice\notes\hooks\Hooks.class
+com\practice\notes\retry\SmartRetryAnalyzer.class
+com\practice\notes\stepdefinitions\CommonUiSteps.class
+com\practice\notes\runner\E2eTestRunner.class
+com\practice\notes\stepdefinitions\E2eSteps.class
+com\practice\notes\runner\UiTestRunner.class
+com\practice\notes\stepdefinitions\NoteApiSteps.class
+com\practice\notes\runner\ApiTestRunner.class

@@ -1,0 +1,25 @@
+2026-05-30 23:15:46.400 | [API] | Scenario: Validate GET notes returns list and responds within 2 seconds (Scenario C) | Endpoint: GET /notes | Response Time: 454 ms
+2026-05-30 23:15:49.973 | [UI]  | Scenario: Validate successful login via UI with credentials (Scenario A) | Page: Home Page | Navigation Time: 2681 ms | DOM Ready Time: 900 ms
+2026-05-30 23:15:54.536 | [UI]  | Scenario: Validate successful login via UI with credentials (Scenario A) | Page: Dashboard Page | Navigation Time: 2681 ms | DOM Ready Time: 900 ms
+2026-05-30 23:15:55.936 | [API] | Scenario: Validate POST notes response time is less than 3000 milliseconds (Scenario M-API) | Endpoint: POST /notes | Response Time: 433 ms
+2026-05-30 23:15:59.312 | [API] | Scenario: Validate DELETE notes response time is less than 3000 milliseconds (Scenario N-API) | Endpoint: DELETE /notes/{id} | Response Time: 400 ms
+2026-05-30 23:23:18.478 | [API] | Scenario: Validate GET notes returns list and responds within 2 seconds (Scenario C) | Endpoint: GET /notes | Response Time: 559 ms
+2026-05-30 23:23:28.140 | [API] | Scenario: Validate POST notes response time is less than 3000 milliseconds (Scenario M-API) | Endpoint: POST /notes | Response Time: 561 ms
+2026-05-30 23:23:31.642 | [API] | Scenario: Validate DELETE notes response time is less than 3000 milliseconds (Scenario N-API) | Endpoint: DELETE /notes/{id} | Response Time: 424 ms
+2026-05-30 23:23:35.527 | [UI]  | Scenario: Validate successful login via UI with credentials (Scenario A) | Page: Home Page | Navigation Time: 3050 ms | DOM Ready Time: 815 ms
+2026-05-30 23:23:39.943 | [UI]  | Scenario: Validate successful login via UI with credentials (Scenario A) | Page: Dashboard Page | Navigation Time: 3050 ms | DOM Ready Time: 815 ms
+2026-05-30 23:42:43.685 | [API] | Scenario: Validate GET notes returns list and responds within 2 seconds (Scenario C) | Endpoint: GET /notes | Response Time: 3184 ms
+2026-05-30 23:42:58.345 | [UI]  | Scenario: Validate successful login via UI with credentials (Scenario A) | Page: Home Page | Navigation Time: 8628 ms | DOM Ready Time: 2266 ms
+2026-05-30 23:43:05.834 | [UI]  | Scenario: Validate successful login via UI with credentials (Scenario A) | Page: Dashboard Page | Navigation Time: 16057 ms | DOM Ready Time: 2266 ms
+2026-05-30 23:43:16.247 | [API] | Scenario: Validate POST notes response time is less than 3000 milliseconds (Scenario M-API) | Endpoint: POST /notes | Response Time: 1383 ms
+2026-05-30 23:43:28.102 | [API] | Scenario: Validate DELETE notes response time is less than 3000 milliseconds (Scenario N-API) | Endpoint: DELETE /notes/{id} | Response Time: 1489 ms
+2026-05-30 23:53:02.256 | [API] | Scenario: Validate GET notes returns list and responds within 2 seconds (Scenario C) | Endpoint: GET /notes | Response Time: 879 ms
+2026-05-30 23:53:07.899 | [UI]  | Scenario: Validate successful login via UI with credentials (Scenario A) | Page: Home Page | Navigation Time: 3411 ms | DOM Ready Time: 920 ms
+2026-05-30 23:53:12.104 | [UI]  | Scenario: Validate successful login via UI with credentials (Scenario A) | Page: Dashboard Page | Navigation Time: 3411 ms | DOM Ready Time: 920 ms
+2026-05-30 23:53:13.347 | [API] | Scenario: Validate POST notes response time is less than 3000 milliseconds (Scenario M-API) | Endpoint: POST /notes | Response Time: 435 ms
+2026-05-30 23:53:17.365 | [API] | Scenario: Validate DELETE notes response time is less than 3000 milliseconds (Scenario N-API) | Endpoint: DELETE /notes/{id} | Response Time: 604 ms
+2026-05-31 00:58:08.829 | [API] | Scenario: Validate GET notes returns list and responds within 2 seconds (Scenario C) | Endpoint: GET /notes | Response Time: 430 ms
+2026-05-31 00:58:17.896 | [UI]  | Scenario: Validate successful login via UI with credentials (Scenario A) | Page: Home Page | Navigation Time: 5528 ms | DOM Ready Time: 1086 ms
+2026-05-31 00:58:20.077 | [UI]  | Scenario: Validate successful login via UI with credentials (Scenario A) | Page: Dashboard Page | Navigation Time: 5528 ms | DOM Ready Time: 1086 ms
+2026-05-31 00:58:21.165 | [API] | Scenario: Validate POST notes response time is less than 3000 milliseconds (Scenario M-API) | Endpoint: POST /notes | Response Time: 762 ms
+2026-05-31 00:58:25.510 | [API] | Scenario: Validate DELETE notes response time is less than 3000 milliseconds (Scenario N-API) | Endpoint: DELETE /notes/{id} | Response Time: 584 ms

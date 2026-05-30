@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-31T00:58:00 IST" name="Notes App BDD Suite" finished-at="2026-05-31T01:03:27 IST" duration-ms="327003">
+    <groups>
+      <group name="cucumber">
+        <method signature="ApiTestRunner.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.ApiTestRunner@7bde1f3a]" name="runScenario" class="com.practice.notes.runner.ApiTestRunner"/>
+        <method signature="UiTestRunner.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.UiTestRunner@25d3cfc8]" name="runScenario" class="com.practice.notes.runner.UiTestRunner"/>
+        <method signature="E2eTestRunner.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.E2eTestRunner@15fa55a6]" name="runScenario" class="com.practice.notes.runner.E2eTestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-05-31T00:58:00 IST" name="Parallel UI and API Tests" finished-at="2026-05-31T01:00:37 IST" duration-ms="157366">
+      <class name="com.practice.notes.runner.UiTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.practice.notes.runner.UiTestRunner@25d3cfc8]" started-at="2026-05-31T00:58:00 IST" name="setUpClass" finished-at="2026-05-31T00:58:01 IST" duration-ms="1338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5dfd31f4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.UiTestRunner@25d3cfc8]" started-at="2026-05-31T00:58:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-31T00:58:20 IST" duration-ms="18881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate successful login via UI with credentials (Scenario A)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UI Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.UiTestRunner@25d3cfc8]" started-at="2026-05-31T00:58:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-31T00:58:41 IST" duration-ms="20768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate note creation via UI and immediate appearance in list (Scenario B)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UI Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.UiTestRunner@25d3cfc8]" started-at="2026-05-31T00:58:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-31T00:59:10 IST" duration-ms="29143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate error message shown for invalid login credentials (Scenario G)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UI Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.UiTestRunner@25d3cfc8]" started-at="2026-05-31T00:59:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-31T00:59:32 IST" duration-ms="21856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate note creation with Home category appears in the UI list (Scenario L)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UI Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.UiTestRunner@25d3cfc8]" started-at="2026-05-31T00:59:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-31T00:59:58 IST" duration-ms="26139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate note description is visible on the UI note card (Scenario M)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UI Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.UiTestRunner@25d3cfc8]" started-at="2026-05-31T00:59:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-31T01:00:37 IST" duration-ms="39119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate deleting a note via UI removes it from the dashboard (Scenario N)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["UI Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.practice.notes.runner.UiTestRunner@25d3cfc8]" started-at="2026-05-31T01:00:37 IST" name="tearDownClass" finished-at="2026-05-31T01:00:37 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.practice.notes.runner.UiTestRunner -->
+      <class name="com.practice.notes.runner.ApiTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.practice.notes.runner.ApiTestRunner@7bde1f3a]" started-at="2026-05-31T00:58:00 IST" name="setUpClass" finished-at="2026-05-31T00:58:01 IST" duration-ms="1338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5dfd31f4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.ApiTestRunner@7bde1f3a]" started-at="2026-05-31T00:58:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-31T00:58:08 IST" duration-ms="7341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate GET notes returns list and responds within 2 seconds (Scenario C)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.ApiTestRunner@7bde1f3a]" started-at="2026-05-31T00:58:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-31T00:58:13 IST" duration-ms="4264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate note deletion via DELETE notes ID (Scenario D)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.ApiTestRunner@7bde1f3a]" started-at="2026-05-31T00:58:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-31T00:58:18 IST" duration-ms="4992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate note count in GET notes increases by 1 after creating a new note (Scenario L-API)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.ApiTestRunner@7bde1f3a]" started-at="2026-05-31T00:58:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-31T00:58:21 IST" duration-ms="3055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate POST notes response time is less than 3000 milliseconds (Scenario M-API)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.ApiTestRunner@7bde1f3a]" started-at="2026-05-31T00:58:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-31T00:58:25 IST" duration-ms="4350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate DELETE notes response time is less than 3000 milliseconds (Scenario N-API)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.ApiTestRunner@7bde1f3a]" started-at="2026-05-31T00:58:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-31T00:58:28 IST" duration-ms="2712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate DELETE notes returns 404 for a non-existent note ID (Scenario O-API)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.ApiTestRunner@7bde1f3a]" started-at="2026-05-31T00:58:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-31T00:58:29 IST" duration-ms="1742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate API returns 401 when using an invalid auth token (Scenario P-API)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["API Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.practice.notes.runner.ApiTestRunner@7bde1f3a]" started-at="2026-05-31T00:58:29 IST" name="tearDownClass" finished-at="2026-05-31T00:58:30 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.practice.notes.runner.ApiTestRunner -->
+    </test> <!-- Parallel UI and API Tests -->
+    <test started-at="2026-05-31T01:00:37 IST" name="Serial E2E Tests" finished-at="2026-05-31T01:03:27 IST" duration-ms="169574">
+      <class name="com.practice.notes.runner.E2eTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.practice.notes.runner.E2eTestRunner@15fa55a6]" started-at="2026-05-31T01:00:37 IST" name="setUpClass" finished-at="2026-05-31T01:00:37 IST" duration-ms="40" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@36463b09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.E2eTestRunner@15fa55a6]" started-at="2026-05-31T01:00:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-31T01:01:14 IST" duration-ms="37021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate UI-created note data matches API GET notes response exactly (Scenario E)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["E2E Hybrid Integration Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.E2eTestRunner@15fa55a6]" started-at="2026-05-31T01:01:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-31T01:01:53 IST" duration-ms="38886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate note deleted via API disappears from UI list (Scenario F)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["E2E Hybrid Integration Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.E2eTestRunner@15fa55a6]" started-at="2026-05-31T01:01:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-31T01:02:18 IST" duration-ms="24558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate UI-created note persists in the list after a full page refresh (Scenario Q)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["E2E Hybrid Integration Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.E2eTestRunner@15fa55a6]" started-at="2026-05-31T01:02:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-31T01:02:49 IST" duration-ms="31201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate two notes created via UI both appear in the API GET notes list (Scenario R)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["E2E Hybrid Integration Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.practice.notes.runner.E2eTestRunner@15fa55a6]" started-at="2026-05-31T01:02:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-31T01:03:27 IST" duration-ms="37809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the UI note count decreases by 1 after deleting a note via API (Scenario T)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["E2E Hybrid Integration Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.practice.notes.runner.E2eTestRunner@15fa55a6]" started-at="2026-05-31T01:03:27 IST" name="tearDownClass" finished-at="2026-05-31T01:03:27 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.practice.notes.runner.E2eTestRunner -->
+    </test> <!-- Serial E2E Tests -->
+  </suite> <!-- Notes App BDD Suite -->
+</testng-results>
